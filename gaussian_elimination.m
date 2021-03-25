@@ -4,7 +4,7 @@
 %   x = gaussian_elimination(A,b) solves the linear system Ax=b for x (an
 %   n-by-1 vector), where A is an n-by-n matrix and b is an n-by-1 vector.
 %
-% MATLAB Central File Exchange: 
+% MATLAB Central File Exchange: https://www.mathworks.com/matlabcentral/fileexchange/89306-gaussian-elimination-gaussian_elimination
 % GitHub: https://github.com/tamaskis/gaussian_elimination-MATLAB
 %
 % See "DOCUMENTATION.pdf" for additional documentation and examples. 
