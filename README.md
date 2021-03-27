@@ -9,7 +9,7 @@ Solves the linear system <img src="https://latex.codecogs.com/svg.latex?\mathbf{
 
 
 ## Description
-`x = gaussian_elimination(A,b)` solves the linear system <img src="https://latex.codecogs.com/svg.latex?\mathbf{A}\mathbf{x}=\mathbf{b}" title="\mathbf{A}\mathbf{x}=\mathbf{b}" /> for <img src="https://latex.codecogs.com/svg.latex?\mathbf{x}" title="\mathbf{x}" /> (an <img src="https://latex.codecogs.com/svg.latex?n\times1" title="n\times1" /> vector), where <img src="https://latex.codecogs.com/svg.latex?\mathbf{A}\in\mathbb{R}^{n\times&space;n}" title="\mathbf{A}\in\mathbb{R}^{n\times n}" /> and <img src="https://latex.codecogs.com/svg.latex?\mathbf{b}\in\mathbb{R}^{n}" title="\mathbf{b}\in\mathbb{R}^{n}" />.
+`x = gaussian_elimination(A,b)` solves the linear system <img src="https://latex.codecogs.com/svg.latex?\mathbf{A}\mathbf{x}=\mathbf{b}" title="\mathbf{A}\mathbf{x}=\mathbf{b}" /> for <img src="https://latex.codecogs.com/svg.latex?\mathbf{x}\in\mathbb{R}^{n}" title="\mathbf{x}\in\mathbb{R}^{n}" />, where <img src="https://latex.codecogs.com/svg.latex?\mathbf{A}\in\mathbb{R}^{n\times&space;n}" title="\mathbf{A}\in\mathbb{R}^{n\times n}" /> and <img src="https://latex.codecogs.com/svg.latex?\mathbf{b}\in\mathbb{R}^{n}" title="\mathbf{b}\in\mathbb{R}^{n}" />.
 
 
 ## Additional Documentation and Examples
