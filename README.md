@@ -1,6 +1,6 @@
-# `gaussian_elimination`
+# `gaussian_elimination` [![View Gaussian Elimination (gaussian_elimination) on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange/89306-gaussian-elimination-gaussian_elimination)
 
-Solves the linear system <img src="https://latex.codecogs.com/svg.latex?A\mathbf{x}=\mathbf{b}" title="A\mathbf{x}=\mathbf{b}" /> for <img src="https://latex.codecogs.com/svg.latex?\mathbf{x}" title="\mathbf{x}" /> using Gaussian elimination with partial pivoting.
+Solves the linear system <img src="https://latex.codecogs.com/svg.latex?\mathbf{A}\mathbf{x}=\mathbf{b}" title="\mathbf{A}\mathbf{x}=\mathbf{b}" /> for <img src="https://latex.codecogs.com/svg.latex?\mathbf{x}" title="\mathbf{x}" /> using Gaussian elimination with partial pivoting.
 
 
 ## Syntax
