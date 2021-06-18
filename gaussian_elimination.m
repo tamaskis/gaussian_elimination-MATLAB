@@ -1,26 +1,35 @@
+%==========================================================================
+%
 % gaussian_elimination  Solves the linear system Ax=b for x using Gaussian
 % elimination with partial pivoting.
 %
-%   x = gaussian_elimination(A,b) solves the linear system Ax=b for x (an
-%   n-by-1 vector), where A is an n-by-n matrix and b is an n-by-1 vector.
+%   x = gaussian_elimination(A,b)
+%
+% Copyright © 2021 Tamas Kis
+% Last Update: 2021-06-18
+%
+%--------------------------------------------------------------------------
 %
 % MATLAB Central File Exchange: https://www.mathworks.com/matlabcentral/fileexchange/89306-gaussian-elimination-gaussian_elimination
 % GitHub: https://github.com/tamaskis/gaussian_elimination-MATLAB
 %
-% See "DOCUMENTATION.pdf" for additional documentation and examples. 
-% Examples can also be found in EXAMPLES.m. Both of these files are 
-% included with the download.
+% See EXAMPLES.mlx for examples and "DOCUMENTATION.pdf" for additional 
+% documentation. Both of these files are included with the download.
 %
-% Copyright (c) 2021 Tamas Kis
-% Last Update: 2021-04-01
-
-
-
-%% FUNCTION
-
-% INPUT(S): A - n-by-n matrix
-%           b - n-by-1 vector
-% OUTPUT(S): x - solution of linear system (n-by-1 vector)
+%--------------------------------------------------------------------------
+%
+% -------
+% INPUTS:
+% -------
+%   A       - (n×n) matrix
+%   b       - (n×1) vector
+%
+% --------
+% OUTPUTS:
+% --------
+%   x       - (n×1) solution of the linear system Ax=b
+%
+%==========================================================================
 function x = gaussian_elimination(A,b)
     
     % determines n
