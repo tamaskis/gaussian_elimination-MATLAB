@@ -5,11 +5,11 @@
 %
 %   x = gaussian_elimination(A,b)
 %
-% See also inv, tridiagonal.
+% See also \, mldivide, /, mrdivide, inv, tridiagonal.
 %
 % Copyright © 2021 Tamas Kis
 % Contact: tamas.a.kis@outlook.com
-% Last Update: 2021-07-09
+% Last Update: 2021-07-15.
 %
 %--------------------------------------------------------------------------
 %
@@ -31,6 +31,14 @@
 % OUTPUT:
 % -------
 %   x       - (n×1) solution of the linear system Ax=b
+%
+% -----
+% NOTE:
+% -----
+%   --> This function is meant to illustrate Gaussian elimination with
+%       partial pivoting. The "\" and "/" operators (or equivalently the
+%       "mldivide" and "mrdivide" functions) should still be used in
+%       practice when solving linear systems.
 %
 %==========================================================================
 function x = gaussian_elimination(A,b)
@@ -95,7 +103,7 @@ function x = gaussian_elimination(A,b)
         end
     end
     
-    % prints error if matrix is singular
+    % prints warning if matrix is singular
     if singular
         warning("Matrix is singular to working precision.")
     end
