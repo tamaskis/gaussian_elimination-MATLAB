@@ -8,16 +8,12 @@
 % See also \, mldivide, /, mrdivide, inv, tridiagonal.
 %
 % Copyright © 2021 Tamas Kis
+% Website: tamaskis.github.io
 % Contact: tamas.a.kis@outlook.com
-% Last Update: 2021-07-15.
+% Last Update: 2021-07-25
 %
-%--------------------------------------------------------------------------
-%
-% MATLAB Central File Exchange: https://www.mathworks.com/matlabcentral/fileexchange/89306-gaussian-elimination-gaussian_elimination
-% GitHub: https://github.com/tamaskis/gaussian_elimination-MATLAB
-%
-% See EXAMPLES.mlx for examples and "DOCUMENTATION.pdf" for additional 
-% documentation. Both of these files are included with the download.
+% REFERENCES:
+%   [1] https://tamaskis.github.io/documentation/Gaussian%20Elimination.pdf
 %
 %--------------------------------------------------------------------------
 %
