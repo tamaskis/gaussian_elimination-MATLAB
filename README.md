@@ -15,4 +15,4 @@ Solves the linear system <img src="https://latex.codecogs.com/svg.latex?\inline&
 ## Examples and Additional Documentation
 
    -  See "EXAMPLES.mlx" or the "Examples" tab on the File Exchange page for examples. 
-   -  See "DOCUMENTATION.pdf" (included with download, also available at https://github.com/tamaskis/gaussian_elimination-MATLAB/blob/main/DOCUMENTATION.pdf) for additional documentation.
+   -  See "Gaussian Elimination.pdf" (included with download, also available at https://tamaskis.github.io/documentation/Gaussian%20Elimination.pdf) for additional documentation.
