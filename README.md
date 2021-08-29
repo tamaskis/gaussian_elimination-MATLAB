@@ -16,5 +16,5 @@ Solves the linear system <img src="https://latex.codecogs.com/svg.latex?\inline&
 
 ## Examples and Additional Documentation
 
-   -  See "EXAMPLES.mlx" or the "Examples" tab on the File Exchange page for examples. 
-   -  See [Gaussian Elimination.pdf](https://tamaskis.github.io/documentation/Gaussian%20Elimination.pdf) (also included with download) for additional documentation.
+   - See "EXAMPLES.mlx" or the "Examples" tab on the File Exchange page for examples. 
+   - See [Gaussian_Elimination.pdf](https://tamaskis.github.io/documentation/Gaussian_Elimination.pdf) (also included with download) for additional documentation.

@@ -8,25 +8,28 @@
 % See also \, mldivide, /, mrdivide, inv, tridiagonal.
 %
 % Copyright © 2021 Tamas Kis
-% Website: tamaskis.github.io
+% Last Update: 2021-08-28
+% Website: https://tamaskis.github.io
 % Contact: tamas.a.kis@outlook.com
-% Last Update: 2021-07-25
+%
+% TECHNICAL DOCUMENTATION:
+% https://tamaskis.github.io/documentation/Gaussian_Elimination.pdf
 %
 % REFERENCES:
-%   [1] https://tamaskis.github.io/documentation/Gaussian%20Elimination.pdf
+%   [1] Burden and Faires, "Numerical Analysis", 9th Ed. (pp. 374-375)
 %
 %--------------------------------------------------------------------------
 %
 % ------
 % INPUT:
 % ------
-%   A       - (n×n) matrix
-%   b       - (n×1) vector
+%   A       - (n×n double) matrix
+%   b       - (n×1 double) vector
 %
 % -------
 % OUTPUT:
 % -------
-%   x       - (n×1) solution of the linear system Ax=b
+%   x       - (n×1 double) solution of the linear system Ax=b
 %
 % -----
 % NOTE:
